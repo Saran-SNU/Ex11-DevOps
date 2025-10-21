@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/<username>/node-api.git'
+                git branch: 'main', url: 'https://github.com/Saran-SNU/Ex11-DevOps.git'
             }
         }
 
